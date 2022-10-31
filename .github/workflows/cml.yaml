@@ -12,7 +12,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python 01_prod_regression_ci__tutorial.py
+          python Tp_ci.py
           # Write your CML report
           echo "## Metriques:" >> report.md
           cat metrics.txt >> report.md
