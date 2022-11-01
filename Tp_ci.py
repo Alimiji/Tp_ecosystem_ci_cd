@@ -216,13 +216,13 @@ with open("metrics.txt", 'w') as outfile:
 # In[16]:
 
 
-#import joblib
+import joblib
 
 
 # In[17]:
 
 
-#joblib.dump(Lin_reg_model, 'Lin_reg_model.pkl')
+joblib.dump(Lin_reg_model, 'Lin_reg_model.pkl')
 
 
 # In[ ]:
