@@ -13,6 +13,12 @@ jobs:
           # Your ML workflow goes here
           pip install pip-upgrade-tool
           pip install -r requirements.txt
+          # Install MLflow
+          pip install mlflow
+          
+          # Install a lightweight version of MLflow
+          pip install mlflow-skinny
+          
           python Tp_ci.py
           # Write your CML report
           echo "## Metriques:" >> report.md
