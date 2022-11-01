@@ -11,6 +11,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Your ML workflow goes here
+          pip install pip-upgrade-tool
           pip install -r requirements.txt
           python Tp_ci.py
           # Write your CML report
