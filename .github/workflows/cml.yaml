@@ -19,9 +19,9 @@ jobs:
           # Install a lightweight version of MLflow
           pip install mlflow-skinny
           
-          mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts  --host 0.0.0.0
+          # mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts  --host 0.0.0.0
           
-          python mlflow_rl_tp.py
+          # python mlflow_rl_tp.py
           
           python Tp_ci.py
           # Write your CML report
